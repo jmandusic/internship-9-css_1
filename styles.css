@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navigation {
+  list-style: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px;
+  background-color: rgb(247, 197, 69);
+  z-index: 3;
+}
+
+.navigation-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.navigation-item {
+  padding: 10px;
+}
+
+.navigation-item a {
+  text-decoration: none;
+  font-weight: 300;
+  color: white;
+  cursor: pointer;
+}
+
+.list-item {
+  font-weight: 500;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.hover-required:hover {
+  color: rgb(65, 74, 68);
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.main-header {
+  align-self: center;
+  height: 80vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dump-logo {
+  height: 40px;
+  width: 120px;
+}
+
+.header {
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.header-paragraph {
+  text-align: center;
+  font-weight: lighter;
+}
+
+.header-bottom {
+  height: 20vh;
+  width: 100vw;
+  align-self: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: sticky;
+  top: 58px;
+}
+
+.header-bottom-wrapper {
+  align-self: center;
+  width: 50%;
+}
+
+.header-bottom-paragraph {
+  text-align: center;
+  color: white;
+}
+
+.header-button {
+  padding: 5px;
+  height: 50px;
+  width: 200px;
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(247, 197, 69);
+  border: 2px solid rgb(247, 197, 69);
+  cursor: pointer;
+}
+
+.header-button:hover {
+  background-color: rgb(43, 61, 70);
+  color: white;
+  border: 2px solid white;
+}
+
+.box-text {
+  background-color: rgb(158, 158, 158);
+  height: 35vh;
+  width: 100vw;
+}
+
+.text {
+  padding-left: 20px;
+  padding-top: 15px;
+  height: 10%;
+  width: 20%;
+}
+
+.text-paragraph {
+  font-size: 10px;
+  background-color: rgb(120, 120, 120);
+  padding: 15px;
+  color: white;
+}
+
+.section {
+  background-image: linear-gradient(0deg, white 90%, rgb(158, 158, 158) 10%);
+  height: 150vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.main-section {
+  background-color: white;
+  height: 35%;
+  width: 35%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.section-header {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.section-paragraph {
+  line-height: 1.5;
+  font-weight: lighter;
+  padding-bottom: 10px;
+}
+
+.section-button {
+  padding: 5px;
+  height: 40px;
+  width: 150px;
+  border: 2px solid rgb(43, 61, 70);
+}
+
+.section-button:hover {
+  color: white;
+  background-color: rgb(43, 61, 70);
+  cursor: pointer;
+}
